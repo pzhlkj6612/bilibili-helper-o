@@ -276,6 +276,39 @@ const MessageDarkModeStyle = createGlobalStyle`
               .input-box #editor {
                   color: var(--dark-font-0);
               }
+              .row .bp-emoji-box {
+                .static-popup {
+                  border-color: var(--dark-5);
+                  background-color: var(--dark-5);
+                  -webkit-box-shadow: 0 3px 5px 0 var(--dark-card);
+                  box-shadow: 0 3px 5px 0 var(--dark-card);
+                  .emoji-page {
+                    .emoji {
+                      background-color: transparent;
+                      &:hover {
+                        background-color: var(--dark-3)!important;
+                      }
+                      &.kaomoji {
+                        color: var(--dark-font-1);
+                      }
+                    }
+                    .ps__rail-y {
+                      background-color: var(--dark-4);
+                      .ps__thumb-y {
+                        background-color: var(--dark-3);
+                      }
+                    }
+                  }
+                  .pagination {
+                    background-color: var(--dark-3);
+                    .emoji-cover-list {
+                      .emoji-cover.selected {
+                        background-color: var(--dark-5);
+                      }
+                    }
+                  }
+                }
+              }
             }
             .im-popup .im-popup-shell {
               background-color: var(--dark-3);
